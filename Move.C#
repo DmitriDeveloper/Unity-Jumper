@@ -24,7 +24,6 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        totl = PlayerPrefs.GetInt("Points");
         if (Input.GetKey(KeyCode.D))
         {
             transform.position += new Vector3(speed, 0, 0) * Time.deltaTime;
